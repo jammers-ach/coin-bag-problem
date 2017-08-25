@@ -38,6 +38,14 @@ gbp = [
     (2, 12),
 ]
 
+rub = [
+    (0.1, 1.85),
+    (0.5, 2.75),
+    (1, 5),
+    (5, 6),
+    (10, 5.63),
+]
+
 
 def fill_bag(coins, bag_size=6000):
     '''Fills a bag up to bag_size with random coins
